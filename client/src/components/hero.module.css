@@ -1,0 +1,50 @@
+.hero {
+
+  height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+.heroImg {
+  width: 100%;
+}
+
+.heroText {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 450px) {
+  .hero {
+    margin-top: 5rem;
+  }
+
+  .heroImg {
+    float: left;
+    width: 50%;
+    margin-right: 1rem;
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+  }
+
+  .heroImg {
+    max-width: 20rem;
+    margin-right: 0;
+
+  }
+
+  .heroText {
+    font-size: 1.25rem;
+    flex: 1;
+    padding: 1rem;
+  }
+
+}
