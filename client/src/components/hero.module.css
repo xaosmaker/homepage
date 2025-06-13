@@ -1,6 +1,5 @@
 .hero {
 
-  height: 100vh;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -16,6 +15,7 @@
 
 @media screen and (min-width: 450px) {
   .hero {
+    display: flow-root;
     margin-top: 5rem;
   }
 
