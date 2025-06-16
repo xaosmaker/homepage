@@ -4,7 +4,7 @@ export default function Hero() {
     <div className={styles.hero} id="about">
 
 
-      <img src="public/ZTS03058.jpg" className={styles.heroImg} alt="an image of me" />
+      <img src="ZTS03058.jpg" className={styles.heroImg} alt="an image of me" />
 
       <p className={styles.heroText}>
         I’m a self-taught fullstack developer, but I didn’t start off with the right mindset.
