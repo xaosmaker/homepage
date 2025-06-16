@@ -1,0 +1,32 @@
+services:
+
+  nginx:
+    container_name: nginx
+    build:
+      context: ./docker/local/nginx/
+      dockerfile: Dockerfile
+    volumes:
+      - ~/.nginx-cerst:/certs/
+    ports:
+      - 443:443
+      - 80:80
+    networks:
+        - main-nginx-net
+
+  # homepage:
+  #   container_name: homepage
+  #   build: 
+  #     context: ./
+  #     dockerfile: ./docker/local/Dockerfile
+  #   volumes:
+  #     - ./client/src:/app/src
+  #   ports:
+  #     - 5173:5173
+  #   networks:
+  #       - main-nginx-net
+  #   command: npm run dev
+
+    
+networks:
+  main-nginx-net:
+    external: true

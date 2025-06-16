@@ -1,9 +1,0 @@
-services:
-  homepage:
-    container_name: homepage
-    build: .
-    volumes:
-      - ./src:/app/src
-    ports:
-      - 5173:5173
-    command: npm run dev
