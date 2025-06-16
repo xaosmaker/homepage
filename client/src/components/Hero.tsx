@@ -1,7 +1,7 @@
 import styles from "./hero.module.css"
 export default function Hero() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="about">
 
 
       <img src="public/ZTS03058.jpg" className={styles.heroImg} alt="an image of me" />

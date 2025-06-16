@@ -1,6 +1,10 @@
 .navbar {
+
+  position: sticky;
+  top: 0;
   padding: .5rem 2rem;
   box-shadow: 0 0 .1rem .1rem black;
+  background-color: white;
 }
 
 .navbarContainer {
@@ -45,6 +49,8 @@
 
 .navbarNavigationItem {
   padding: .5rem;
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (min-width: 920px) {

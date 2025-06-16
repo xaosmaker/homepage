@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
 
       <nav className={`${styles.navbarNavigation} ${showMenu && `${styles.navbarNavigationShow}`}`}>
-        <a className={styles.navbarNavigationItem} href="">link1</a>
+        <a className={styles.navbarNavigationItem} href="#about">About me</a>
         <a href="" className={styles.navbarNavigationItem}>link2</a>
 
       </nav>
