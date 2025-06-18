@@ -3,8 +3,9 @@
   position: sticky;
   top: 0;
   padding: .5rem 2rem;
-  box-shadow: 0 0 .1rem .1rem black;
-  background-color: white;
+  box-shadow: var(--box-shadow);
+  background: color-mix(in srgb, var(--secondary-color), transparent 5%);
+  z-index: 1;
 }
 
 .navbarContainer {
@@ -50,7 +51,7 @@
 .navbarNavigationItem {
   padding: .5rem;
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
 }
 
 @media screen and (min-width: 920px) {
