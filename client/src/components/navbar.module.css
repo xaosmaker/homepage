@@ -42,6 +42,14 @@
 
 }
 
+
+.navbarMenu {
+  background-color: transparent;
+  border: 0;
+  padding: .5rem;
+
+}
+
 .navbarNavigationShow {
   display: flex;
   animation: showMenu .5s;
