@@ -1,0 +1,16 @@
+services:
+  homepage:
+    container_name: homepageProd
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./homepage:/test
+    ports:
+      - 5174:5173
+
+    expose:
+        - 5173
+    command: cp -r /client/dist/ /test
+
+    
