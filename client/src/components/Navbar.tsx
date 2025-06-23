@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import styles from "./navbar.module.css"
 import { FaXmark } from "react-icons/fa6";
+import SocilaMedia from "./SocilaMedia";
 
 
 
@@ -22,6 +23,7 @@ export default function Navbar() {
       <nav className={`${styles.navbarNavigation} ${showMenu && `${styles.navbarNavigationShow}`}`}>
         <a className={styles.navbarNavigationItem} href="#about">About me</a>
         <a href="#projects" className={styles.navbarNavigationItem}>My Projects</a>
+        <SocilaMedia />
 
       </nav>
     </div >

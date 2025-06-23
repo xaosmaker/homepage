@@ -28,6 +28,11 @@ body {
   color: var(--text-color);
   --box-shadow: 0 0 .2rem .1rem var(--shadow);
 
+
+}
+
+a {
+  color: var(--text-color);
 }
 
 @keyframes turn {
@@ -148,4 +153,9 @@ body {
 .projectCardTitle {
   text-transform: capitalize;
   padding: .5rem 2rem;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 1rem;
 }
