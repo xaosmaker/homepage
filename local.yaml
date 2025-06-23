@@ -11,11 +11,6 @@ services:
 
     expose:
         - 5173
-    networks:
-        - local-nginx-net
     command: npm run dev
 
     
-networks:
-  local-nginx-net:
-    external: true
